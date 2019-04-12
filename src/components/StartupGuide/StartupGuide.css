@@ -1,0 +1,38 @@
+.sideBar {
+  background: #f7f9fa;
+
+  width: 240px;
+  min-width: 240px;
+  height: 100%;
+  float:left;
+  position: absolute;
+
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.pageContent {
+  height: 100%;
+  margin-left: 200px;
+  padding-top: 20px;
+  float:left;
+  
+}
+
+.categoryItem {
+  font-weight: 600;
+  color: blue !important;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
